@@ -436,7 +436,7 @@ tie <- type_object(
 )
 
 chat <- chat_google_gemini()
-chat$chat_structured(
+edges <- chat$chat_structured(
   notes,
   type = type_array(tie)
 )
@@ -455,7 +455,7 @@ It [reads]{.green} `prompts/extract_ties.md` and sends it.
 #| eval: false
 prompt <- read_file("prompts/extract_ties.md")
 
-chat$chat_structured(
+edges <- chat$chat_structured(
   str_c(prompt, "\n\nObservation:\n", notes),
   type = type_array(tie)
 )
@@ -586,11 +586,28 @@ tie <- type_object(
 | `authority` | Teacher directs students |
 | `other` | Explicit, but the list does not fit |
 
+## Extract the edge list
+
+```{r}
+#| eval: false
+prompt <- read_file("prompts/extract_ties.md")
+
+chat <- chat_google_gemini()
+edges <- chat$chat_structured(
+  str_c(prompt, "\n\nObservation:\n", notes),
+  type = type_array(tie)
+)
+```
+
+::: {.fragment}
+`edges` is now in the environment. Inspect it before you audit.
+:::
+
 ## Round 1 steps
 
 ::: {.incremental}
 1. Confirm `notes` is loaded from `school-obs.md`
-2. Extract ties
+2. Extract ties into `edges`
 3. Pair: one drives, one audits [soccer]{.accent} first
 :::
 
@@ -689,6 +706,10 @@ Two tables. One network.
 edges   person_from, person_to, tie, quote
 nodes   name, role, grade, location, activity
 ```
+
+::: {.muted}
+Both should be in the Environment pane before you plot.
+:::
 
 ## Plot with tidygraph
 
