@@ -1,0 +1,37 @@
+person_from,person_to,tie,evidence_quote
+Ezekiel,Kwame,affiliation,"emerged from the fifth-grade hallway with Kwame, Lukas, and Henrik"
+Ezekiel,Lukas,affiliation,"emerged from the fifth-grade hallway with Kwame, Lukas, and Henrik"
+Ezekiel,Henrik,affiliation,"emerged from the fifth-grade hallway with Kwame, Lukas, and Henrik"
+Kwame,Lukas,affiliation,the four boys ran toward the field together
+Kwame,Henrik,affiliation,Kwame and Henrik stood behind the net waiting
+Lukas,Henrik,affiliation,the four boys ran toward the field together
+Amara,Valentina,affiliation,Amara and Valentina were walking with Sophie
+Amara,Sophie,affiliation,Amara and Valentina were walking with Sophie
+Valentina,Sophie,affiliation,Amara and Valentina were walking with Sophie
+Valentina,Henrik,other,Can we play?
+Valentina,Ezekiel,exclusion,We already started.
+Ngozi,Ezekiel,authority,Ngozi instructed the children to reorganize the teams
+Ngozi,Valentina,authority,What's happening here?
+Henrik,Valentina,help,Henrik handed a training vest to Valentina
+Andrés,Oliver,play,already midway through a game
+Andrés,Chidi,play,already midway through a game
+Andrés,James,play,already midway through a game
+Oliver,Chidi,play,already midway through a game
+Oliver,James,play,already midway through a game
+Chidi,James,play,already midway through a game
+Andrés,Oliver,conflict,That was out!
+Mateo,Thabo,affiliation,sat sharing a package of cookies
+Isabella,Mariana,conflict,You can't change the rules now
+Emma,Isabella,affiliation,sitting with Isabella and Sofía
+Emma,Sofía,affiliation,sitting with Isabella and Sofía
+Isabella,Sofía,affiliation,sitting with Isabella and Sofía
+Mariana,Imani,affiliation,Imani immediately stood up and followed her
+Mariana,Camila,affiliation,Camila followed a few seconds later
+Imani,Camila,affiliation,entered the building together
+Mariana,Emma,exclusion,Let's go over there
+Imani,Emma,exclusion,Imani immediately stood up and followed her
+Camila,Emma,exclusion,Camila followed a few seconds later
+Imani,Zainab,help,What happened?
+Chidi,Zainab,help,Chidi began searching beneath a nearby bench
+James,Zainab,help,James checked around the entrance to the cafeteria
+Noah,Zainab,help,"Noah, a third-grade student, lifted a crumpled five-thousand-peso bill"

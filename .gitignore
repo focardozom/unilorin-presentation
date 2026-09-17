@@ -1,0 +1,25 @@
+# Quarto / R build artifacts
+/_site/
+/.quarto/
+/_freeze/
+*_cache/
+*_files/
+output/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.html
+**/*.quarto_ipynb
+
+# Secrets and local environment
+.env
+.env.*
+.Renviron
+.Renviron.local
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db

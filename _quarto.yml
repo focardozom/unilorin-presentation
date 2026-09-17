@@ -1,0 +1,24 @@
+project:
+  type: default
+  output-dir: _site
+
+format:
+  revealjs:
+    theme: [default, assets/theme.scss]
+    slide-number: true
+    code-copy: true
+    code-overflow: wrap
+    transition: fade
+    width: 1280
+    height: 720
+    footer: "University of Ilorin · Dr. Francisco Cardozo"
+    slide-level: 2
+    smart: false
+
+execute:
+  echo: true
+  warning: false
+  message: false
+
+editor:
+  render-on-save: false
